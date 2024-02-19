@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1708355520536' stop='1708355521428'>
+    <name>Ranking Mechanism Test</name>
+    <title>Ranking Mechanism Test</title>
+    <test-cases>
+        <test-case start='1708355520653' status='passed' stop='1708355520704'>
+            <name>Check website date value</name>
+            <title>Check website date value</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1708355520730' status='passed' stop='1708355520833'>
+            <name>Same keyword appears in more than 1 product</name>
+            <title>Same keyword appears in more than 1 product</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1708355520852' status='passed' stop='1708355520986'>
+            <name>Update exist website with a reference link</name>
+            <title>Update exist website with a reference link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1708355521004' status='passed' stop='1708355521100'>
+            <name>Remove one product from DB</name>
+            <title>Remove one product from DB</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1708355521116' status='passed' stop='1708355521182'>
+            <name>Check if total grade for site+product is higher then second total grade site+product</name>
+            <title>Check if total grade for site+product is higher then second total grade site+product</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1708355521205' status='passed' stop='1708355521314'>
+            <name>Insert new website to database, verify if statusText return Created</name>
+            <title>Insert new website to database, verify if statusText return Created</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1708355521337' status='passed' stop='1708355521427'>
+            <name>Insert new product to database, verify if statusText return Created</name>
+            <title>Insert new product to database, verify if statusText return Created</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
