@@ -1,4 +1,4 @@
-name: Deploy Nightly
+name: Allure
 on: [push]
 
 jobs:
