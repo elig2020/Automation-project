@@ -4,7 +4,6 @@
   "description": "How to get started:",
   "main": "index.js",
   "scripts": {
-    "pretest": "rm -r allure-results/ allure-report cypress/screenshots || true",
     "cy:all": "npm-run-all --parallel start:server allure:execute",
     "cy:open": "cypress open",
     "execute:allure": "npm-run-all allure:execute allure:report",
@@ -12,8 +11,7 @@
     "allure:report": "allure generate allure-results --clean -o allure-report && allure open  allure-report",
     "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true",
     "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
-    "start:server": "json-server --watch cypress/fixtures/db.json --port 3030",
-    "allure:serve": "allure serve allure-report"
+    "start:server": "json-server --watch cypress/fixtures/db.json --port 3030"
   },
   "author": "Elyasaf Gershon",
   "license": "ISC",
