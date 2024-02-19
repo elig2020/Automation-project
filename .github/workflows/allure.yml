@@ -27,21 +27,21 @@ jobs:
         if: always()
         continue-on-error: true
         with:
-              ref: new
-              path: new
+              ref: reports
+              path: reports
 
       - name: Generate Allure Report
         uses: simple-elf/allure-report-action@master
         if: always()
         with:
               allure_results: allure-results
-              gh_pages: new
+              gh_pages: reports
 
       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v3
         with:
               github_token: ${{ secrets.GITHUB_TOKEN }}
-              publish_branch: new
+              publish_branch: reports
               publish_dir: allure-history
 
